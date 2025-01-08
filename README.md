@@ -2,6 +2,10 @@
 
 Para iniciar o serviço python, utilizei no git bash um venv, instale as bibliotecas necessárias: 
 pip install transformers torch sentencepiece fastapi uvicorn langchain python-dotenv requests
+
+não fiz o upload da venv porque o arquivo estava gigante.
+
+
 e na sequência uvicorn app.main:app --reload --port 8000
 Iniciar o servidor node com npm run dev na pasta do node
 
