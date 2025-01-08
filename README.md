@@ -25,3 +25,7 @@ curl http://localhost:3005/tasks
 recebe task específica por ID: 
 
 curl http://localhost:3005/tasks/{taskId}
+
+para deletar uma task específica pela ID:
+
+curl -X DELETE http://localhost:3005/tasks/{taskId}
